@@ -8,9 +8,9 @@ const Navbar = () => {
                 <Image src="/newLogo.svg" width={500} height={200}/>
                 <h1> Friends List </h1>
             </div>
-            <Link href="/"><a> HOME </a></Link>
-              <Link href="/about"><a> ABOUT </a></Link>
-              <Link href="/friends/friend"><a> FRIENDS LIST </a></Link>
+            <Link href="/pages"><a> HOME </a></Link>
+              <Link href="/pages/about"><a> ABOUT </a></Link>
+              <Link href="/friends"><a> FRIENDS LIST </a></Link>
         </nav>
 
     );
